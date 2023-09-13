@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the Number│AW</title>
+</head>
+<body>
+    <div class="top-right">
+        <p class="high-score">High Score: <span id="highScore">0</span></p>
+    </div>
+
+    <h1>Number Guessing Game</h1>
+    <p>Guess a number between 1 and 10:</p>
+
+    <!-- Guess buttons -->
+    <div id="guessButtons">
+        <button class="guess-button">1</button>
+        <button class="guess-button">2</button>
+        <button class="guess-button">3</button>
+        <button class="guess-button">4</button>
+        <button class="guess-button">5</button>
+        <button class="guess-button">6</button>
+        <button class="guess-button">7</button>
+        <button class="guess-button">8</button>
+        <button class="guess-button">9</button>
+        <button class="guess-button">10</button>
+    </div>
+
+    <!-- Display selected number -->
+    <div id="selectedNumberBox"></div>
+
+    <!-- Display result message -->
+    <p id="resultMessage"></p>
+
+    <!-- Reset High Score button -->
+    <button id="resetHighScore">Reset High Score</button>
+
+    <!-- Try Again and Confirm buttons -->
+    <button id="tryAgainButton" disabled>Try Again</button>
+    <button id="confirmButton" disabled>Confirm Guess</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
